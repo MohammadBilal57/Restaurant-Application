@@ -32,6 +32,7 @@
             border-radius: 8px;
             font-size: 15px;
             margin-top: -25px;
+            cursor: pointer;
         }
          nav .btn2{
             float: right;
@@ -45,6 +46,43 @@
             border-radius: 8px;
             font-size: 15px;
             margin-top: -25px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .main .left{
+            float: left;
+            margin-top: 250px;
+        }
+
+        .left h1{
+            margin-left: 100px;
+            font-family: "Roboto", sans-serif;
+            font-size: 40px;
+        }
+
+        .left input{
+            margin-left: 100px;
+            width: 550px;
+            height: 40px;
+            margin-top: 35px;
+            font-size: 30px;
+            border-radius: 10px;
+        }
+
+        .left .btn3{
+            width: 80px;
+            height: 40px;
+            border: none;
+            outline: none;
+            background-color: #E21B70;
+            color: white;
+            border-radius: 10px;
+            margin-left: 15px;
+            margin-top: -20px;
+        }
+
+        .main .right{
+            float: right;
         }
     </style>
 </head>
@@ -54,8 +92,23 @@
             <img src="" alt="">
             <h1>foodpanda</h1>
             <button class="btn1">Login</button>
-            <button class="btn2">Sign up</button>
+            <button class="btn2"><a href="./usersignup.html">Sign up</a></button>
         </nav>
+    </div>
+
+    <div class="section1">
+        <div class="main">
+            <div class="left">
+                    <h1>Enjoy discounts on your first order</h1>
+                <div class="rec1">
+                    <input type=" text" placeholder=" Enter your address">
+                    <button class="btn3">Find food</button>
+                </div>
+            </div>
+            <div class="right">
+
+            </div>
+        </div>
     </div>
 </body>
 </html>
